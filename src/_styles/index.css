@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  /* padding: 0; */
+  font-family: sans-serif;
+  padding-top: 0.1px;
+}
+
+html > body {
+  padding-top: 0.1px;
+}
+
+.ui.container.main {
+  /* margin-top: 3.5em; */
+}
+
+.workarea {
+  /* margin-top: 47px; */
+  /* height: 100%; */
+}
+
+.pushable.main {
+  margin-top: 47px;
+  height: 100%;
+}
+
+div#root {
+  height: calc(100% - 47px);
+}
+
+div#router-root {
+  height: 100%;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-flow: wrap;
+  padding: 10px;
+}
+
+.disabled.field {
+  opacity: 0.65 !important;
+}
